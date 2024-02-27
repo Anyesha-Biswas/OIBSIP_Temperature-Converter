@@ -1,0 +1,49 @@
+body {
+	font-family: Arial, sans-serif;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+form {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+label {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+input[type="number"] {
+	flex-basis: 48%;
+	margin-bottom: 20px;
+}
+
+button {
+	flex-basis: 48%;
+	padding: 10px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #3e8e41;
+}
+
+#result {
+	margin-top: 30px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
